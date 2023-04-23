@@ -1,0 +1,66 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  border-bottom: 2px solid orange;
+}
+
+ol {
+  padding-left: 0;
+}
+
+.crumb {
+  margin-right: 2em;
+  display: inline;
+}
+
+a {
+  color: orange;
+}
+
+a:visited {
+  color: crimson;
+}
+
+input {
+  display: block;
+}
+
+img {
+  max-width: 300px;
+}
+
+/* CSS for profile page */
+/* 
+.profile-main {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch; /* may need to come back and change*/
+/* }
+
+.profile-main > * {
+  flex-basis: 100%;
+}
+
+.column-one {
+  border: 1px solid red;
+  background-color: ;
+}
+
+#profile-picture {
+  border-radius: 50%;
+}
+.column-two {
+  border: 1px solid red;
+}
+
+.column-three {
+  border: 1px solid red;
+} */

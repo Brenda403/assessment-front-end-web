@@ -1,0 +1,144 @@
+body {
+  background: #ccd7c5;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  font-family: "Nothing You Could Do", sans-serif;
+  font-size: large;
+}
+
+nav {
+  border-bottom: 2px solid #ee9480;
+}
+
+ol {
+  padding-left: 0;
+}
+
+.crumb {
+  margin-right: 2em;
+  display: inline;
+}
+
+a {
+  color: #d65780;
+}
+
+a:visited {
+  color: #ee9480;
+}
+
+input {
+  display: block;
+}
+
+img {
+  max-width: 300px;
+  align-self: center;
+}
+
+.profile-main {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch; /* may need to come back and change*/
+}
+
+.profile-main > * {
+  flex-basis: 100%;
+}
+
+.column-one {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  background-color: #efd2cb;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.column-one > * {
+  align-self: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+#profile-picture {
+  border-radius: 50%;
+  padding: 15px 10px;
+}
+.about-me {
+  list-style: none;
+}
+.column-two {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  background-color: #c7a27c;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+.column-two > * {
+  align-self: center;
+  align-items: center;
+}
+.listed-skills {
+  list-style: none;
+}
+
+.career-goals {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+#career-goals-header {
+  align-self: center;
+}
+#career-goal-paragraph {
+  justify-content: center;
+  align-self: center;
+  padding-left: 15px;
+}
+.column-three {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  background-color: #efd2cb;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.column-three > * {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.interests-header {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.favorites > * {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.listed-favorites {
+  list-style: none;
+}
+
+.favorite-button {
+  /* background-color: #f4f482; */
+  /* background-color: #f5cb5c; */
+  background-color: #ffe45e;
+  padding: 10px;
+  border-radius: 10px;
+}

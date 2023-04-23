@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+      </ol>
+    </nav>
+
+    <content>
+      <h1>Hello World</h1>
+      <!-- insert hello world here -->
+
+      <img
+        src="https://images.unsplash.com/photo-1582845512747-e42001c95638?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        id="rubber-ducky"
+      />
+      <p>Welcome to our website</p>
+      <!-- Compliments to the user? -->
+      <ul>
+        <li>I like your style</li>
+        <li>I bet you do crosswords in ink</li>
+        <li>You have good taste in websites</li>
+      </ul>
+      <h2>Contact Us</h2>
+      <form id="contact">
+        Your name:
+        <input type="text" />
+
+        Message:
+        <input type="textarea" />
+
+        How did you hear about us?
+        <input type="checkbox" name="google" id="google" />
+        <label for="google"> Google </label>
+        <input type="checkbox" name="friend" id="friend" />
+        <label for="friend">Friend</label>
+        <input type="checkbox" name="other" id="other" />
+        <label for="other">other</label>
+        <input type="submit" />
+      </form>
+    </content>
+
+    <script src="about.js"></script>
+  </body>
+</html>

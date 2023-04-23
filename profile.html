@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+  <title>Homepage</title>
+  <link href="profile.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <nav>
+    <ol>
+      <li class="crumb"><a href="./home.html">Home</a></li>
+      <li class="crumb"><a href="./profile.html">Profile</a></li>
+      <li class="crumb"><a href="./about.html">About</a></li>
+    </ol>
+  </nav>
+
+  <a href="./home.html"><< Back </a>
+  <main class="profile-main">
+    <!-- quick about me -->
+    <section class="column-one">
+      <img
+        src="https://media.licdn.com/dms/image/D4E03AQE0Bf6yadwCrQ/profile-displayphoto-shrink_200_200/0/1674332920873?e=1687996800&v=beta&t=b22h8SvOYj5cCd3xC5K4WJA1opaXR8SjazXd1SYMpv4"
+        id="profile-picture"
+      />
+      <p>Hello! I'm Brenda!</p>
+      <ul class="about-me">
+        <li>Age: 29</li>
+        <li>Location: NC</li>
+        <li>Big 3: Libra, Leo, Leo</li>
+      </ul>
+    </section>
+    <!-- skills and career goals -->
+    <section class="column-two">
+      <section class="skills">
+        <h2>Skills</h2>
+        <ul class="listed-skills">
+          <li>HTML/CSS</li>
+          <li>JavaScript</li>
+          <li>Bootstrap</li>
+          <li>Git/GitHub</li>
+          <li>Teamwork/Collaboration</li>
+          <li>Organization</li>
+          <li>Bilingual - Spanish</li>
+        </ul>
+      </section>
+      <section class="career-goals">
+        <h2 id="career-goals-header">Career Goals</h2>
+        <p id="career-goal-paragraph">
+          Successfully complete bootcamp and obtain a job with Perficient.
+        </p>
+      </section>
+    </section>
+    <!-- favorite things and interests -->
+    <section class="column-three">
+      <section class="favorites">
+        <h2>Favorites</h2>
+        <form>
+          <button id="color" class="favorite-button">My Favorite Color</button>
+          <button id="place" class="favorite-button">My Favorite Place</button>
+          <button id="food" class="favorite-button">My Favorite Food</button>
+        </form>
+      </section>
+      <section class="interests">
+        <h2 class="interests-header">Interests</h2>
+        <ul class="listed-favorites">
+          <li>Cooking</li>
+          <li>Baking</li>
+          <li>Paddleboarding</li>
+          <li>Hiking</li>
+          <li>Crocheting</li>
+          <li>Playing video games</li>
+        </ul>
+      </section>
+    </section>
+  </main>
+  <footer></footer>
+  <script src="profile.js"></script>
+</body>
